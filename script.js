@@ -72,6 +72,7 @@ audio_track.onplay = function (event) {
   console.log(event);
 };
 
+//event listeners
 nextBtn.addEventListener("click", next);
 prevBtn.addEventListener("click", previous);
 audio_track.addEventListener("timeupdate", () => {
